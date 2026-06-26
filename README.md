@@ -6,7 +6,7 @@ This portfolio showcases my web development projects, skills, and contact inform
 ---
 
 ## 🚀 Live Demo
-https://24jr1a05dw-alt.github.io/CodeAlpha-Portfolio/
+https://badboy9997.github.io/CodeAlpha-portfolio/
 
 ---
 
