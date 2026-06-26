@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio V2</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+.w95 { width: 95%; }
+.w90 { width: 90%; }
+.w85 { width: 85%; }
+.w80 { width: 80%; }
+.w75 { width: 75%; }
+.feature-list { padding-left: 20px; line-height: 2; }
+</style>
+</head>
+
+<body>
+
+<!-- ⭐ STARFIELD / PARTICLE BACKGROUND -->
+<canvas id="bgCanvas"></canvas>
+
+<header>
+
+<div class="logo">Portfolio</div>
+
+<!-- 🍔 MENU BUTTON (NEW) -->
+<div id="menuBtn">☰</div>
+
+<nav id="navMenu">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<button id="themeBtn" class="theme-btn">
+🌙
+</button>
+
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-text">
+
+<h1>
+Hi, I'm
+<span>Your Sriram</span>
+</h1>
+
+<div id="typing" class="typing"></div>
+
+<a href="#" class="btn">
+Download Resume
+</a>
+
+<div class="social">
+
+<a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+<i class="fab fa-instagram"></i>
+</a>
+
+</div>
+</div>
+
+<div class="hero-img">
+
+<img src="https://img.magnific.com/premium-photo/cute-anime-boy-wallpaper_776894-110627.jpg?semt=ais_hybrid&w=740&q=80" alt="Illustration of a developer with technology elements">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">
+About Me
+</h2>
+
+<div class="card">
+
+I am a passionate developer interested in Web Development, AI and Software Projects.
+
+</div>
+
+</section>
+<section id="stats">
+
+<h2 class="section-title">
+My Statistics
+</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h1 data-target="15">0+</h1>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat">
+<h1 data-target="10">0+</h1>
+<p>Technologies Learned</p>
+</div>
+
+<div class="stat">
+<h1 data-target="500">0+</h1>
+<p>Coding Hours</p>
+</div>
+
+<div class="stat">
+<h1 data-target="100">0+</h1>
+<p>Problems Solved</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">
+Skills
+</h2>
+
+<div class="card">
+
+<div class="skill">
+&lt;/&gt; - 95%
+<div class="bar">
+<div class="fill w95"></div>
+</div>
+</div>
+
+<div class="skill">
+🎨 - 90%
+<div class="bar">
+<div class="fill w90"></div>
+</div>
+</div>
+
+<div class="skill">
+⚡ - 85%
+<div class="bar">
+<div class="fill w85"></div>
+</div>
+</div>
+
+<div class="skill">
+🐍 - 80%
+<div class="bar">
+<div class="fill w80"></div>
+</div>
+</div>
+
+<div class="skill">
+☕ - 75%
+<div class="bar">
+<div class="fill w75"></div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="section-title">
+Services
+</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>𝓦𝓮𝓫𝓼𝓲𝓽𝓮  𝓓𝓮𝓿𝓮𝓵𝓸𝓹𝓶𝓮𝓷𝓽</h3>
+<p>Modern responsive websites.</p>
+</div>
+
+<div class="service">
+<h3>𝓕𝓻𝓸𝓷𝓽𝓮𝓷𝓭  𝓓𝓮𝓼𝓲𝓰𝓷</h3>
+<p>Beautiful UI/UX designs.</p>
+</div>
+
+
+<div class="service">
+<h3>𝓐𝓘 𝓟𝓻𝓸𝓳𝓮𝓬𝓽𝓼</h3>
+<p>Smart AI-powered solutions.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2 class="section-title">
+Education
+</h2>
+
+<div class="card">
+
+<div class="timeline-item">
+<h3>Intermediate</h3>
+<p>Completed Intermediate Education</p>
+</div>
+
+<div class="timeline-item">
+<h3>B.Tech Computer Science</h3>
+<p>Pursuing Engineering Degree</p>
+</div>
+
+<div class="timeline-item">
+<h3>Web Development</h3>
+<p>HTML, CSS, JavaScript Learning Journey</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2 class="section-title">
+Projects
+</h2>
+
+<div class="projects">
+
+<div class="project">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzEcpLAAVBJyrN2sX1BkzJyBqKyx66twzUHBoccjBn2g&s=10" alt="Calculator">
+
+<h3>Calculator with History</h3>
+
+<p>
+Responsive calculator built using HTML, CSS and JavaScript with history feature.
+</p>
+
+<br>
+
+<a href="https://badboy9997.github.io/CodeAlpha-cals/" target="_blank" rel="noopener" class="btn">
+Live Demo
+</a>
+
+<a href="https://github.com/BadBoy9997/CodeAlpha-cals.git" target="_blank" rel="noopener" class="btn">
+Code
+</a>
+
+</div>
+
+
+<div class="project">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_yplqrTF3yRBkJqstY4LLyM3aX_Zs4CNsblM2Frmtvw&s=10" alt="Music Player">
+
+<h3>Music Player</h3>
+
+<p>
+Modern music player with playlist, play/pause and responsive UI design.
+</p>
+
+<br>
+
+<a href="https://24jr1a05dw-alt.github.io/CodeAlpha-Music-Player/" target="_blank" rel="noopener" class="btn">
+Live Demo
+</a>
+
+<a href="https://github.com/24jr1a05dw-alt/CodeAlpha-Music-Player.git" target="_blank" rel="noopener" class="btn">
+Code
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="certificates">
+
+<h2 class="section-title">
+Certificates
+</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Web Development</h3>
+<p>HTML, CSS, JavaScript Certification</p>
+</div>
+
+<div class="project">
+<h3>Python Programming</h3>
+<p>Python Fundamentals Certification</p>
+</div>
+
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">
+Contact Me
+</h2>
+
+<div class="contact-form">
+
+<input
+type="text"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+placeholder="Your Email"
+required>
+
+<textarea
+rows="6"
+placeholder="Your Message"
+required></textarea>
+
+<button id="sendBtn">
+Send Message
+</button>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>
+© 2026 Sriram
+</h3>
+
+<p>
+All Rights Reserved😊 
+</p>
+
+<p>
+ Don't worry here i am for u..😇
+</p>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
